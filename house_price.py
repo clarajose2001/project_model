@@ -20,7 +20,7 @@ def load_model(file_path):
         return None
 
 # Load the model
-model = load_model('best_house_price_model.pkl')
+model = load_model('best_house_price_model.new.pkl')
 
 # Define the required columns globally
 required_columns = [
